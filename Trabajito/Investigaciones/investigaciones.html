@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Proyectos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/Home/home.html">Inicio</a></li>
+            <li><a href="/Investigaciones/investigaciones.html">Proyectos</a></li>
+            <li><a href="/Contacto/contacto.html">Contacto</a></li>
+            <li><a href="/Login/login.html">Cerrar Sesión</a></li>
+        </ul>
+    </nav>
+
+    <br><button id="agregarProyectoBtn">Agregar Proyecto</button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="cerrarModal">&times;</span>
+            <h2>Agregar Proyecto</h2>
+            <form id="proyectoForm">
+                <label for="nombreProyecto">Nombre del Proyecto:</label>
+                <input type="text" id="nombreProyecto" required>
+
+                <label for="autor">Autor:</label>
+                <input type="text" id="autor" required>
+
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" required></textarea>
+
+                <label for="carrera">Carrera:</label>
+                <input type="text" id="carrera" required>
+
+                <label for="facultad">Facultad:</label>
+                <input type="text" id="facultad" required>
+
+                <label for="anio">Año:</label>
+                <input type="number" id="anio" required>
+
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre Proyecto</th>
+                <th>Autor</th>
+                <th>Descripción</th>
+                <th>Carrera</th>
+                <th>Facultad</th>
+                <th>Año</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="proyectoTable">
+        </tbody>
+    </table>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

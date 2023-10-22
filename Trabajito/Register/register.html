@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <img src="./imagenes/transparente.png" alt="Logo de la aplicación" class="logo">
+    <h2>Registro</h2>
+    <form action="/Home/home.html" id="registroForm">
+      <input type="text" placeholder="Nombre de usuario" required>
+      <input id="pass" type="password" placeholder="Contraseña" required>
+      <input id="passConfirma" type="password" placeholder="Confirmar Contraseña" required>
+      <input type="submit" value="Registrarse">
+    </form>
+    <p id="mensajeError" style="color: red;"></p>
+    <p>¿Ya estás registrado? <a href="/Login/login.html">Inicia sesión</a></p>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>

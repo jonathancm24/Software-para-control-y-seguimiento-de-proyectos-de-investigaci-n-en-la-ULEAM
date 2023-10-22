@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software de Control y Seguimiento de Proyectos de Investigación</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="university-info">
+            <h1>Universidad ULEAM</h1>
+            <img src="./imagenes/transparente.png" alt="Logo de la Universidad XYZ">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/Home/home.html">Inicio</a></li>
+                <li><a href="/Investigaciones/investigaciones.html">Proyectos</a></li>
+                <li><a href="/Contacto/contacto.html">Contacto</a></li>
+                <li><a href="/Login/login.html">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contacto">
+        <h1>Contacto</h1>
+        <p>¿Tiene alguna pregunta o comentario sobre nuestro Software de Control y Seguimiento de Proyectos de Investigación? Por favor, no dude en ponerse en contacto con nosotros.</p>
+        
+        <form action="enviar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Software de Control y Seguimiento de Proyectos de Investigación</p>
+    </footer>
+    
+</body>
+</html>

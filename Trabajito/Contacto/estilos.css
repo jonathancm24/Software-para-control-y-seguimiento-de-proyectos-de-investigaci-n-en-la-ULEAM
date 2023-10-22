@@ -1,0 +1,132 @@
+/* Estilos para la página de contacto */
+.contacto {
+    background-color: #67e78945;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contacto h1 {
+    color: #333;
+}
+
+.contacto p {
+    color: #000;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.contacto form {
+    background-color: #fff;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contacto label {
+    display: block;
+    margin-top: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+.contacto input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/* Estilos comunes a ambos archivos */
+body, footer {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para la barra de navegación */
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 19px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+.university-info {
+    display: flex;
+    align-items: center;
+}
+
+.university-info h1 {
+    margin-right: 20px;
+}
+
+.university-info img {
+    max-height: 60px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+
+/* Estilos para el botón en la página de inicio */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+    
+}
+
